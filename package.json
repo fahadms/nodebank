@@ -1,0 +1,23 @@
+{
+    "name": "node-mysql-api",
+    "version": "1.0.0",
+    "description": "Node MySQL API",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "~1.0.1",
+        "chai": "^4.2.0",
+        "chai-http": "^4.2.0",
+        "chai-json": "^1.0.0",
+        "express": "~4.0.0",
+        "http-auth": "~2.2.8",
+        "mysql": "~2.9.0",
+        "mysql2": "^1.6.1",
+        "nodemon": "^1.18.4",
+        "sequelize": "~3.6.0"
+    },
+    "scripts": {
+        "test": "node test/concurrency.js"
+    },
+    "author": "Mohammed Fahad",
+    "license": "ISC"
+}
