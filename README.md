@@ -26,12 +26,12 @@ Create a new entry in the table with the parameters that are posted.
 POST http://localhost:3000/api/transfer
 ```
 **Response**
-## Added an additional response paylod called 'sub_id'. Since the Database structure cannot be changed,
-## We need an additional entry in the 'TRANSACTIONS' table, logging the detail of the Account Number from which the amount has been deducted
-## The amount value in the transction table will be negative.
-##
-## The Transaction id for the Account, to which the Amount has been credited is indicated by 'id'. The amount entry in the transaction table 
-## will be positive.
+ Added an additional response paylod called 'sub_id'. Since the Database structure cannot be changed,
+ We need an additional entry in the 'TRANSACTIONS' table, logging the detail of the Account Number from which the amount has been deducted
+ The amount value in the transction table will be negative.
+
+ The Transaction id for the Account, to which the Amount has been credited is indicated by 'id'. The amount entry in the transaction table 
+ will be positive.
 - If successful :
 ```json
 {
